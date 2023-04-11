@@ -12,11 +12,11 @@ public class Fabula extends Escrito {
     }
 
     
-    int palabrasTotales(int n) {
+    public int palabrasTotales(int n) {
         return super.getPaginas() * n;
     }
 
-    String interpretacion() {
+    public String interpretacion() {
         return interpretacion;
     }
 
